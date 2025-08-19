@@ -1,15 +1,15 @@
 
-# zgpt 🐚🤖
+# zgpt 
 
 A versatile and easy-to-use command-line AI assistant powered by the **Google Gemini API**.
 
-## 🚀 Features
+##  Features
 
 - **Simple Interface**: Get answers directly in your terminal.
 - **Easy Setup**: Configure your API key with a single command.
 - **Secure**: Your API key is stored locally in your user configuration directory.
 
-## 📦 Installation
+##  Installation
 
 First, clone the repository and navigate into the directory:
 
@@ -24,7 +24,7 @@ Then, install the package in editable mode. This is great for development and en
 pip install -e .
 ```
 
-## 🔑 Setup
+##  Setup 🔑
 
 Before you can use `zgpt`, you need to set your Gemini API key. Run the `--init` command:
 
@@ -40,7 +40,7 @@ You can remove the key at any time:
 zgpt --revoke
 ```
 
-## 💡 Usage
+##  Usage
 
 To ask a question, simply type `zgpt` followed by your prompt:
 
