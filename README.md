@@ -13,14 +13,14 @@ A versatile and easy-to-use command-line AI assistant powered by the **Google Ge
 
 First, clone the repository and navigate into the directory:
 
-```bash
-git clone [https://github.com/your-username/zgpt.git](https://github.com/your-username/zgpt.git)
+```
+git clone https://github.com/sachinz25/zgpt.git
 cd zgpt
 ```
 
 Then, install the package in editable mode. This is great for development and ensures the `zgpt` command is available system-wide.
 
-```bash
+```
 pip install -e .
 ```
 
@@ -28,7 +28,7 @@ pip install -e .
 
 Before you can use `zgpt`, you need to set your Gemini API key. Run the `--init` command:
 
-```bash
+``
 zgpt --init
 ```
 
