@@ -1,19 +1,18 @@
 
 from setuptools import setup, find_packages
 
-# Read the contents of your README file
+# Read the contents of README file
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
     name="zgpt",
-    version="0.2.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    version="1.0.0",
+    author="sachinz25",
     description="A versatile CLI assistant powered by the Gemini API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/zgpt",
+    url="https://github.com/sachinz25/zgpt",
     packages=find_packages(),
     install_requires=[
         "requests>=2.25.0",
