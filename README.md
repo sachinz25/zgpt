@@ -11,8 +11,17 @@ A versatile and easy-to-use command-line AI assistant powered by the **Google Ge
 
 ##  Installation
 
-First, clone the repository and navigate into the directory:
+You can now install `zgpt` directly from PyPI: _(Recommended)_
 
+```
+pip install zgpt
+```
+
+----------------OR---------------
+
+if you want to work on the project locally, clone the repository and install in editable mode:
+
+First, clone the repository and navigate into the directory:
 ```
 git clone https://github.com/sachinz25/zgpt.git
 cd zgpt
@@ -28,7 +37,7 @@ pip install -e .
 
 Before you can use `zgpt`, you need to set your Gemini API key. Run the `--init` command:
 
-``
+```
 zgpt --init
 ```
 
@@ -36,7 +45,7 @@ You will be prompted to enter your API key. Once saved, you're ready to go!
 
 You can remove the key at any time:
 
-```bash
+```
 zgpt --revoke
 ```
 
@@ -44,15 +53,15 @@ zgpt --revoke
 
 To ask a question, simply type `zgpt` followed by your prompt:
 
-```bash
+```
 zgpt "explain what a decorator is in python with a simple example"
-```bash
+
 zgpt "give me a 5-line summary of the movie Inception"
 ```
 
 ## 🛠 Example
 
-```bash
+```
 $ zgpt "hello"
 
 🤔 Thinking...
