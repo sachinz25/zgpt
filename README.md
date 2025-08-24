@@ -42,6 +42,14 @@ zgpt --init
 ```
 
 You will be prompted to enter your API key. Once saved, you're ready to go!
+on following page you can get Gemini api keys
+
+**Note: [click here to get gemini api keys](https://aistudio.google.com/app/apikey)**
+```
+click on "ceate API key"
+click "Gemini api" 
+```
+it will generate your api keys 
 
 You can remove the key at any time:
 
