@@ -62,7 +62,7 @@ zgpt "give me a 5-line summary of the movie Inception"
 ## 🛠 Example
 
 ```
-$ zgpt "hello"
+$ zgpt "hello there"
 
 🤔 Thinking...
 🤖
