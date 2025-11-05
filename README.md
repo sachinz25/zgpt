@@ -15,7 +15,7 @@ You can now install `zgpt` directly from PyPI: _(Recommended)_
 
 `pip install zgpt`
 
-*if alrady installed update via*
+*if already installed update via*
 
 `pip install --upgrade zgpt`
 
