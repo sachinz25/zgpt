@@ -3,7 +3,7 @@ import requests
 import json
 
 # Using a more recent and capable model
-API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
 def ask_gemini(prompt, key):
     """Sends a prompt to the Gemini API and returns the response."""
