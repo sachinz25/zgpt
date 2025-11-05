@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="zgpt",
-    version="1.0.0",
+    version="1.0.1",
     author="sachinz25",
     description="A versatile CLI assistant powered by the Gemini API.",
     long_description=long_description,
