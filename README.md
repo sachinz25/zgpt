@@ -14,7 +14,7 @@ A versatile and easy-to-use command-line AI assistant powered by the **Google Ge
 You can now install `zgpt` directly from PyPI: _(Recommended)_
 
 ```
-pip install zgpt
+pip install zgpt --upgrade
 ```
 
 ----------------OR---------------
